@@ -1,4 +1,4 @@
-# Menggunakan image Minecraft server dari itzg/minecraft-server dengan Java 21
+# Menggunakan image Minecraft server dari itzg/minecraft-server
 FROM itzg/minecraft-server:java21
 
 # Port default untuk Minecraft Java Edition
@@ -8,4 +8,6 @@ EXPOSE 25565
 ENV EULA=TRUE \
     TYPE=PAPER \
     VERSION=1.21.11 \
-    MEMORY=2G
+    MEMORY=1.5G \
+    JVM_OPTS="-Djline.terminal=jline.UnsupportedTerminal" \
+    GUI=FALSE

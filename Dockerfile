@@ -1,5 +1,5 @@
-# Menggunakan image Minecraft server dari itzg/minecraft-server
-FROM itzg/minecraft-server:latest
+# Menggunakan image Minecraft server dari itzg/minecraft-server dengan Java 21
+FROM itzg/minecraft-server:java21
 
 # Port default untuk Minecraft Java Edition
 EXPOSE 25565

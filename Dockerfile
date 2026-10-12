@@ -8,6 +8,6 @@ EXPOSE 25565
 ENV EULA=TRUE \
     TYPE=PAPER \
     VERSION=1.21.11 \
-    MEMORY=1.5G \
+    MEMORY=1536M \
     JVM_OPTS="-Djline.terminal=jline.UnsupportedTerminal" \
     GUI=FALSE
